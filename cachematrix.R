@@ -6,7 +6,7 @@
 
 ## Usage: 
 ## pass a square matrix to makeCacheSolve:
-    ## ex <- makeCacheMatrix(matrxi(1, 17, 23, 42), 2)) -- sets the value of the "matrix" as a 3x3 matrix
+    ## ex <- makeCacheMatrix(matrix(1, 17, 23, 42), 2)) -- sets the value of the "matrix" as a 3x3 matrix
       ## this can be confirmed by calling ex$get():
               ## [,1] [,2]
         ## [1,]    1   23
@@ -58,4 +58,4 @@ cacheSolve <- function(x, ...) {
   return(m)
 }
 
-## Return a matrix that is the inverse of 'x'
+## Returns a matrix that is the inverse of 'x'
